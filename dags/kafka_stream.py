@@ -15,6 +15,7 @@ def get_data():
     res = res['results'][0]
     print(json.dumps(res, indent=3))
     return res
+
 #COMMENT TO TEST THE COMMIT--------------------------------------------------
 def format_data(res):
     data={}
